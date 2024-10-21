@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: Arial, sans-serif; 
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.gods-card {
+    width: 30%;
+    margin: 10px; 
+    height: auto;
+    background-color: #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.god-profile img {
+    width: 100%; 
+    max-height: 200px; 
+    margin-bottom: 10px;
+}
